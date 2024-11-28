@@ -18,7 +18,7 @@ const playGameIsPrime = () => {
       console.log('¡Correcto!');
     } else {
       console.log(`'${userAnswer}' es incorrecto. La respuesta correcta era '${correctAnswer}'.`);
-      console.log(`¡Intentemos otra vez, ${name}!`);
+      console.log(`¡Intentemos de nuevo, ${name}!`);
       return;
     }
   }

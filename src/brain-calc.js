@@ -15,7 +15,7 @@ const playCalcGame = () => {
     if (userAnswer === String(correctAnswer)) {
       console.log('¡Correcto!');
     } else {
-      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}.'\n¡Intentémoslo de nuevo! ${username}`);
+      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}.'\n¡Intentémoslo de nuevo, ${username}!`);
       return;
     }
   }
