@@ -16,6 +16,7 @@ const generateProgressionGame = () => {
     const correctAnswer = progression[hiddenIndex];
     progression[hiddenIndex] = '..';
 
+    console.log('¿Qué número falta en la progresión?');
     console.log(`Pregunta: ${progression.join(' ')}`);
     const userAnswer = readlineSync.question('Tu respuesta: ');
 
