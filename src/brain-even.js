@@ -6,7 +6,7 @@ import greetUserName from './cli.js';
 const username = greetUserName();
 
 const playEvenGame = () => {
-  console.log('Responde "yes" si el numero es par, de lo contrario responde "no".\n');
+  console.log('Responde "yes" si el número es par, de lo contrario responde "no".\n');
 
   const rounds = 3;
   for (let i = 0; i < rounds; i++) {
@@ -16,7 +16,7 @@ const playEvenGame = () => {
     const userAnswer = readlineSync.question('Tu respuesta: ').toLowerCase();
 
     if (userAnswer !== 'yes' && userAnswer !== 'no') {
-      console.log('Respuesta inválida. Responde "yes" si el numero es par, o "no" si no lo es.');
+      console.log(`"${userAnswer}" es una respuesta incorrecta ;(. La respuesta correcta era "${validateNumber(number)}".\nIntentémoslo de nuevo! ${username}`);
       return;
     }
 
