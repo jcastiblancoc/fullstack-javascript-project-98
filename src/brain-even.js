@@ -16,7 +16,7 @@ const playEvenGame = () => {
     const userAnswer = readlineSync.question('Tu respuesta: ').toLowerCase();
 
     if (userAnswer !== 'yes' && userAnswer !== 'no') {
-      console.log('Respuesta inválida. Responde "yes" si el número es par, o "no" si no lo es.');
+      console.log('Respuesta inválida. Responde "yes" si el numero es par, o "no" si no lo es.');
       return;
     }
 
