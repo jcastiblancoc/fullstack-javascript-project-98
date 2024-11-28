@@ -7,8 +7,6 @@ const username = greetUserName();
 const brainGcd = () => {
   console.log('Encuentra el máximo común divisor de los números dados.');
 
-  let score = 0;
-
   for (let round = 1; round <= 3; round += 1) {
     const num1 = Math.floor(Math.random() * 100) + 1;
     const num2 = Math.floor(Math.random() * 100) + 1;
@@ -21,7 +19,6 @@ const brainGcd = () => {
 
     if (parseInt(userAnswer, 10) === correctAnswer) {
       console.log('¡Correcto!');
-      score += 1;
     } else {
       console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
       console.log(`¡Intentémoslo de nuevo, ${username}!`);
