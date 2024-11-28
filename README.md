@@ -21,3 +21,10 @@ Este es el juego Brain Calc. A continuación se muestra un ejemplo de cómo inst
 Este es el juego Brain Gcd. A continuación se muestra un ejemplo de cómo instalar y ejecutar el juego:
 
 [Ver la grabación en asciinema](https://asciinema.org/a/ibVxqXBlD7rfh2vTizlN2xapG)
+
+
+## Juego Brain Progression
+
+Este es el juego Brain progression. A continuación se muestra un ejemplo de cómo instalar y ejecutar el juego:
+
+[Ver la grabación en asciinema](https://asciinema.org/a/c1rnP7NSpX7EqDtNUoWj03jtv)

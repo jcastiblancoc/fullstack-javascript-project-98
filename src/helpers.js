@@ -31,3 +31,11 @@ export const gcd = (num1, num2) => {
   }
   return num1;
 };
+
+export const generateProgression = (start, step, length) => {
+  const progression = [];
+  for (let i = 0; i < length; i++) {
+    progression.push(start + i * step);
+  }
+  return progression;
+};
