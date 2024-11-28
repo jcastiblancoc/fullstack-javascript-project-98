@@ -27,7 +27,7 @@ const playEvenGame = () => {
     console.log('Correcto!');
   }
 
-  console.log(`Felicidades, ${username}`);
+  console.log(`¡Felicidades, ${username}!`);
 };
 
 export default playEvenGame;
