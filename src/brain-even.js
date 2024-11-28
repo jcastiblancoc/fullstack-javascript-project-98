@@ -17,11 +17,13 @@ const playEvenGame = () => {
 
     if (userAnswer !== 'yes' && userAnswer !== 'no') {
       console.log(`"${userAnswer}" es una respuesta incorrecta ;(. La respuesta correcta era "${validateNumber(number)}".\nIntentémoslo de nuevo! ${username}`);
+      console.log(`¡Intentemos otra vez, ${username}!`);
       return;
     }
 
     if (userAnswer !== validateNumber(number)) {
       console.log(`"${userAnswer}" es una respuesta incorrecta ;(. La respuesta correcta era "${validateNumber(number)}".\nIntentémoslo de nuevo! ${username}`);
+      console.log(`¡Intentemos otra vez, ${username}!`);
       return;
     }
     console.log('Correcto!');
