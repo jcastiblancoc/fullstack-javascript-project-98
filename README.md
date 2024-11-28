@@ -28,3 +28,10 @@ Este es el juego Brain Gcd. A continuación se muestra un ejemplo de cómo insta
 Este es el juego Brain progression. A continuación se muestra un ejemplo de cómo instalar y ejecutar el juego:
 
 [Ver la grabación en asciinema](https://asciinema.org/a/c1rnP7NSpX7EqDtNUoWj03jtv)
+
+
+## Juego Brain Prime
+
+Este es el juego Brain prime. A continuación se muestra un ejemplo de cómo instalar y ejecutar el juego:
+
+[Ver la grabación en asciinema](https://asciinema.org/a/bKaw7nCttcIcJLowmNBPZdfSU)
